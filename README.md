@@ -49,6 +49,7 @@ This Docker Stack is build for local development and not for production usage.
 ### Configuration
 This package comes with default configuration options. You can modify them by creating `.env` file in your root directory.
 To make it easy, just copy the content from `sample.env` file and update the environment variable values as per your need.
+If you want to see default page as gif-file at start, just replace `.env` file DOCUMENT_ROOT to ./www
 
 ### Configuration Variables
 There are following configuration variables available and you can customize them by overwritting in your own `.env` file.
